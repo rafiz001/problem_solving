@@ -2,9 +2,8 @@ package main
 
 import "fmt"
 
-func check() bool {
-	s := "rafizq"
-	t := "fizra"
+// problem: https://leetcode.com/problems/valid-anagram
+func isAnagram(s string, t string) bool {
 	theMap := map[int]int{}
 
 	for _, value := range s {
@@ -37,11 +36,5 @@ func check() bool {
 }
 
 func main() {
-	/*
-		var fullName int
-		fmt.Print("Enter your full name: ")
-		fmt.Scanln(&fullName) // Reads until space (stops at first word)
-		fmt.Println("Your name:", fullName+30)
-	*/
-	fmt.Print(check())
+	fmt.Print(isAnagram("rrrafiz", "zirfrar"))
 }
