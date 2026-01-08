@@ -36,5 +36,5 @@ func isAnagram(s string, t string) bool {
 }
 
 func main() {
-	fmt.Print(isAnagram("rrrafiz", "zirfrar"))
+	fmt.Println(isAnagram("rrrafiz", "zirfrar"))
 }
