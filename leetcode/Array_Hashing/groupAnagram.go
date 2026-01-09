@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // problem: https://leetcode.com/problems/group-anagrams/
 /*
 //brute-force way:
@@ -73,12 +71,13 @@ func groupAnagrams(strs []string) [][]string {
 	return finalResult
 
 }
-func main() {
-	testCases := [][]string{
-		{"eat", "tea", "tan", "ate", "nat", "bat"},
-		{""},
-		{"a"}}
-	for _, testCase := range testCases {
-		fmt.Println(groupAnagrams(testCase))
-	}
-}
+
+// func main() {
+// 	testCases := [][]string{
+// 		{"eat", "tea", "tan", "ate", "nat", "bat"},
+// 		{""},
+// 		{"a"}}
+// 	for _, testCase := range testCases {
+// 		fmt.Println(groupAnagrams(testCase))
+// 	}
+// }

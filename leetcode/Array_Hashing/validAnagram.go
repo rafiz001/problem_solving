@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // problem: https://leetcode.com/problems/valid-anagram
 func isAnagram(s string, t string) bool {
 	theMap := map[int]int{}
@@ -35,6 +33,6 @@ func isAnagram(s string, t string) bool {
 
 }
 
-func main() {
-	fmt.Println(isAnagram("rrrafiz", "zirfrar"))
-}
+// func main() {
+// 	fmt.Println(isAnagram("rrrafiz", "zirfrar"))
+// }
