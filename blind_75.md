@@ -125,3 +125,4 @@ Here's the full **Blind 75** list, categorized by topic:
 
 ---
 
+[original list](https://leetcode.com/problem-list/oizxjoit/)
