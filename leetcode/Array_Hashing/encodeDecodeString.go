@@ -2,7 +2,7 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 	"strconv"
 )
 
@@ -47,7 +47,7 @@ func (s *Solution) Decode(encoded string) []string {
 		}
 	}
 	return result
-}
+} /*
 func main() {
 
 	fiz := Solution{}
@@ -58,3 +58,4 @@ func main() {
 	fmt.Println(decoded)
 
 }
+*/
