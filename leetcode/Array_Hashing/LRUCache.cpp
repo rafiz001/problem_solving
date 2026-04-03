@@ -1,7 +1,4 @@
 #include <bits/stdc++.h>
-#include <cstddef>
-#include <unordered_map>
-#include <utility>
 using namespace std;
 class LRUCache {
 private:
